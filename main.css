@@ -1,0 +1,234 @@
+body {
+    font-family: Times New Roman, Helvetica, sans-serif;
+    font-size: 120%; 
+    color: #333;     
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0;
+    background-color: rgba(115, 136, 160, 0.562);  
+}
+
+/* ============ MAIN LAYOUT CONTAINER ============ */
+main {
+    border: 1px solid blueviolet; 
+    width: 980px;               
+    margin: 20px auto;          
+    padding: 25px;
+    background-color: rgba(115, 136, 160, 0.562);    
+    box-shadow: 0 0 15px lightgrey;
+}
+
+/* ============ HEADINGS & TEXT ============ */
+h1, h2, h3 {
+    color: #2c3e50;            
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    border-bottom: 2px solid #3498db;  
+    padding-bottom: 10px;
+    margin: 1em 0 0.5em;
+    padding-left: 0;
+}
+
+h2 {
+    border-left: 4px solid #2ecc71;  
+    padding-left: 10px;
+    margin: 1.5em 0 0.75em;
+}
+
+p {
+    margin: 0.75em 0;
+    padding-left: 0;
+    line-height: 1.6;
+}
+
+/* ============ NAVIGATION ============ */
+nav {
+    background: linear-gradient(45deg, #2c3e50 0%, #3498db 100%);
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+nav h1 {
+    color: white;
+    border: none;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background-color 0.2s;
+}
+
+nav a:hover {
+    background-color: rgba(49, 128, 73, 0.2);
+}
+
+
+.twoN {
+    background: linear-gradient(45deg, #2c3e50 0%, #3498db 100%);
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.info-box {
+    border: 1px solid #bdc3c7;
+    background: linear-gradient(135deg, #4581ac 0%, #f0f8ff 100%);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    
+}
+
+.feature-box {
+    border: 2px solid #3498db;
+    background: linear-gradient(135deg, #4581ac 0%, #f0f8ff 100%);
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(52, 152, 219, 0.1);
+}
+
+
+.card-box {
+    border: 1px solid #dfe6e9;
+    background-color: rgb(152, 165, 201);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.p1 {
+    background: linear-gradient(45deg, #2c3e50 0%, #3498db 100%);
+    color: rgb(33, 58, 128);
+    padding: 40px;
+    margin: 30px 0;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.p1 h1, .p1 p {
+    color: white;
+    border: none;
+}
+
+.accent-section {
+    background: linear-gradient(135deg, #4581ac 0%, #f0f8ff 100%);
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+
+ul {
+    margin: 1em 0;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+    line-height: 1.5;
+}
+
+.cta {
+    background: linear-gradient(45deg, #2c3e50 0%, #3498db 100%);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+
+footer {
+    border-top: 1px solid #ecf0f1;
+    margin-top: 40px;
+    padding-top: 20px;
+    color: #d43ce2;
+    font-size: 90%;
+}
+
+#d1{
+    border-radius: 12px;
+    padding: 40px;
+    margin: 30px 0;
+    background: linear-gradient(135deg, #4581ac 0%, #f0f8ff 100%);   
+}
+
+#d1 h3{
+    text-align: center;
+}
+
+.one{
+    border: 2px solid #3498db;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #4581ac 20%, #f0f8ff 100%);
+    margin-bottom: 20px;
+    padding: 40px;
+    
+
+}
+
+.one h3{
+    text-align: center;
+}
+
+.two{
+    border: 2px solid #3498db;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #4581ac 20%, #f0f8ff 100%);
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.two h2{
+    text-align: center;
+}
+
+
+.two h3{
+    text-align: center;
+}
+
+.three{
+    border: 2px solid #3498db;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #4581ac 20%, #f0f8ff 100%);
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+
+.three h3{
+    text-align: center;
+}
